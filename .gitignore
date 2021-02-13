@@ -1,0 +1,15 @@
+.idea
+.mvn
+.DS_Store
+.vs
+
+scripts
+
+backend/src/main/resources/static/images/questions/
+data/
+backend/src/main/resources/application-dev.properties
+backend/target/classes/*.properties
+backend/src/main/resources/application-dev.properties
+*.class
+backend/target/classes/application.properties
+backend/src/main/resources/application-dev.properties

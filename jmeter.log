@@ -1,0 +1,55 @@
+2020/03/22 15:31:26 INFO  - jmeter.util.JMeterUtils: Setting Locale to en 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: Loading user properties from: /usr/share/jmeter/bin/user.properties 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: Loading system properties from: /usr/share/jmeter/bin/system.properties 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: Version 2.13.20170723 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: java.version=11.0.6 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: java.vm.name=OpenJDK 64-Bit Server VM 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: os.name=Linux 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: os.arch=amd64 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: os.version=4.4.0-18362-Microsoft 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: Default Locale=English 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: JMeter  Locale=English 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: user.dir  =/mnt/c/Users/diogo/Desktop/es20tg_46-project 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: PWD       =/mnt/c/Users/diogo/Desktop/es20tg_46-project 
+2020/03/22 15:31:26 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: DESKTOP-OGG9GEA FullName: DESKTOP-OGG9GEA.localdomain 
+2020/03/22 15:31:26 FATAL - jmeter.JMeter: An error occurred:  java.awt.AWTError: Can't connect to X11 window server using 'localhost:5432' as the value of the DISPLAY variable.
+	at java.desktop/sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at java.desktop/sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:102)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:61)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at java.desktop/java.awt.GraphicsEnvironment$LocalGE.createGE(GraphicsEnvironment.java:101)
+	at java.desktop/java.awt.GraphicsEnvironment$LocalGE.<clinit>(GraphicsEnvironment.java:83)
+	at java.desktop/java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:129)
+	at java.desktop/sun.awt.X11.XToolkit.<clinit>(XToolkit.java:232)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:588)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:583)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.Toolkit.getDefaultToolkit(Toolkit.java:582)
+	at java.desktop/sun.swing.SwingUtilities2.getSystemMnemonicKeyMask(SwingUtilities2.java:2212)
+	at java.desktop/javax.swing.plaf.basic.BasicLookAndFeel.initComponentDefaults(BasicLookAndFeel.java:1096)
+	at java.desktop/javax.swing.plaf.metal.MetalLookAndFeel.initComponentDefaults(MetalLookAndFeel.java:440)
+	at java.desktop/javax.swing.plaf.basic.BasicLookAndFeel.getDefaults(BasicLookAndFeel.java:150)
+	at java.desktop/javax.swing.plaf.metal.MetalLookAndFeel.getDefaults(MetalLookAndFeel.java:1560)
+	at java.desktop/javax.swing.UIManager.setLookAndFeel(UIManager.java:587)
+	at java.desktop/javax.swing.UIManager.setLookAndFeel(UIManager.java:629)
+	at java.desktop/javax.swing.UIManager.initializeDefaultLAF(UIManager.java:1404)
+	at java.desktop/javax.swing.UIManager.initialize(UIManager.java:1517)
+	at java.desktop/javax.swing.UIManager.maybeInitialize(UIManager.java:1483)
+	at java.desktop/javax.swing.UIManager.getInstalledLookAndFeels(UIManager.java:422)
+	at org.apache.jmeter.gui.util.JMeterMenuBar.getAllLAFs(JMeterMenuBar.java:685)
+	at org.apache.jmeter.gui.action.LookAndFeelCommand.<clinit>(LookAndFeelCommand.java:57)
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:228)
+	at org.apache.jmeter.JMeter.start(JMeter.java:387)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:264)
+
